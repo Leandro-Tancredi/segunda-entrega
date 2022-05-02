@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------Configuración común a todas las páginas--------------------*/
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-image: url(../images/pizzah.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-fluid {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.navbar-toggler {
+    background-color: rgb(253, 245, 245);
+}
+
+.navbar-nav {
+    padding-right: 3%;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(124, 122, 122);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: 'oleo script'
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(143, 1, 1);
+    text-decoration: none;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+h1 {
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-family: 'oleo script';
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+header span {
+    color: rgb(141, 140, 140);
+    text-transform: capitalize;
+}
+
+
+footer {
+    padding-top: 20px;
+    color: rgb(255, 1, 1);
+    font-size: 30px;
+}
+
+footer .po {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: rgb(2, 2, 2);
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: rgb(248, 247, 247);
+    padding-left: 2%;
+    max-width: 40%;
+}
+
+.pos {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 10%
+}
+/*------------------------Home----------------------*/
+.mainItem1 {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mainItem2 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 40px;
+}
+
+.mainItem3 {
+    padding-left: 30px;
+    color: rgb(245, 248, 250);
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.mainItem4 {
+    padding-right: 40px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/*----------promociones-------*/
+.promos {
+    font-family: 'Oleo Script';
+    text-align: center;
+    font-size: 50px;
+    animation-name: parpadeo;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo {
+    0% {
+        color: rgb(3, 84, 48);
+    }
+
+    10% {
+        color: rgb(5, 252, 26);
+    }
+
+    20% {
+        color: rgb(248, 236, 236);
+    }
+
+    30% {
+        color: rgb(121, 249, 249);
+    }
+
+    40% {
+        color: rgb(117, 117, 243);
+    }
+
+    50% {
+        color: rgb(190, 129, 244);
+    }
+
+    60% {
+        color: rgb(253, 9, 176);
+    }
+
+    70% {
+        color: rgb(251, 60, 63);
+    }
+
+    80% {
+        color: rgb(246, 2, 2);
+    }
+
+    90% {
+        color: rgb(253, 128, 11);
+    }
+
+    100% {
+        color: rgb(219, 238, 4);
+    }
+}
+
+.display-flex3 {
+    color: rgb(244, 241, 241);
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+.promo {
+    height: 450px;
+    width: 45%;
+    text-transform: capitalize;
+    margin: 20px;
+    font-family: 'oleo script';
+    font-size: 1.4em;
+
+}
+
+.Item6 {
+    background-image: url(../images/pizzaB.jpg);
+    background-size: cover;
+}
+
+.Item5 {
+    color: rgb(250, 242, 242);
+}
+
+.Item4 {
+
+    text-align: right;
+}
+
+.Item3 {
+
+    background-image: url(../images/pizzaA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Item2 {
+    background-image: url(../images/pizza1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Item1 {
+    color: rgb(252, 244, 244);
+}
+
+.Item1 p {
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+.Item4 p {
+    padding-right: 20%;
+    padding-top: 50px;
+}
+
+.Item5 p {
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+
+/*------------------contacto------------------*/
+.contacto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.h1-contacto {
+    font-family: 'Oleo Script';
+    text-align: center;
+    font-size: 50px;
+    animation-name: parpadeo;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo {
+    0% {
+        color: rgb(3, 84, 48);
+    }
+
+    10% {
+        color: rgb(5, 252, 26);
+    }
+
+    20% {
+        color: rgb(248, 236, 236);
+    }
+
+    30% {
+        color: rgb(121, 249, 249);
+    }
+
+    40% {
+        color: rgb(117, 117, 243);
+    }
+
+    50% {
+        color: rgb(190, 129, 244);
+    }
+
+    60% {
+        color: rgb(253, 9, 176);
+    }
+
+    70% {
+        color: rgb(251, 60, 63);
+    }
+
+    80% {
+        color: rgb(246, 2, 2);
+    }
+
+    90% {
+        color: rgb(253, 128, 11);
+    }
+
+    100% {
+        color: rgb(219, 238, 4);
+    }
+}
+
+label {
+    color: rgb(5, 5, 4);
+    font-size: 1.6em;
+    font-family: 'oleo script';
+    background-color: rgb(243, 230, 211);
+    opacity: 0.7;
+    border-radius: 15%;
+}
+
+.enviarBorrar {
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.enviar {
+    border: rgb(248, 239, 239) solid;
+    width: 60px;
+    background-color: rgb(241, 241, 1);
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'oleo script';
+}
+
+.enviar:hover {
+    transform: scale(1.5);
+    transition: 0.3;
+}
+
+.borrar {
+    border: #fff solid;
+    width: 60px;
+    background-color: rgb(241, 241, 1);
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'oleo script';
+}
+
+.borrar:hover {
+    transform: scale(1.5);
+    transition: 0.3;
+}
+
+/*-------------------Menu-----------------*/
+
+.h1-menu {
+    color: rgb(245, 234, 208);
+    height: 20%;
+}
+
+.posicion-h1-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.h2-menu {
+    color: rgb(184, 230, 189);
+    height: 70px;
+    margin-bottom: 0;
+    font-family: 'oleo script';
+}
+
+aside {
+    color: rgb(236, 236, 198);
+}
+.p-menu{
+    font-family: 'oleo script';
+    color: rgb(250, 176, 176);
+    font-size: 1em;
+}
+
+/* ------------------nosotros-------------------- */
+.jumbotron {
+    color: rgb(255, 251, 251);
+    background: none;
+}
+
+.fila1 {
+    margin-top: 5%;
+}
+
+
+.historia {
+    color: rgb(255, 251, 251);
+    padding-top: 10%;
+    font-size: 1.1em;
+    padding-left: 10%;
+    font-family: 'oleo script';
+}
+
+.historia2 {
+    color: rgb(255, 251, 251);
+    padding-top: 10%;
+    font-size: 1.1em;
+    font-family: 'oleo script';
+}
+
+.historia3 {
+    color: rgb(255, 251, 251);
+    font-size: 1.1em;
+    padding-left: 10%;
+    padding-top: 20%;
+    font-family: 'oleo script';
+}
+
+.img3 {
+    padding-top: 10%;
+}
